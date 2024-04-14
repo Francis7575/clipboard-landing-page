@@ -26,11 +26,11 @@ const Logo = () => {
 
                 <article className="flex flex-col items-center gap-4 text-center mt-16 lg:mt-[3.5rem]">
                     <h1 className="text-grayish-blue text-[2rem] font-semibold 
-                    tracking-[0.033em] min-w-[19.438rem] leading-normal lg:text-[2.87rem] lg:tracking-[-0.0047em]">
+                        tracking-[0.033em] min-w-[19.438rem] leading-normal lg:text-[2.87rem] lg:tracking-[-0.0047em]">
                         A history of everything you copy
                     </h1>
                     <p className="text-light-grayish-blue tracking-[0.008em] leading-[1.625em] max-w-[19.6rem]
-                    lg:text-[1.25rem] lg:leading-[1.87rem] lg:tracking-[0.009em] lg:max-w-[45.62rem]">
+                        lg:text-[1.25rem] lg:leading-[1.87rem] lg:tracking-[0.009em] lg:max-w-[45.62rem]">
                         Clipboard allows you to track and organize everything you copy.
                         Instantly access your clipboard on all your devices.
                     </p>

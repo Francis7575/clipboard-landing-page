@@ -8,7 +8,7 @@ const ImagesSection = () => {
     return (
         <section className='mb-[10.62rem] lg:mb-[9.375rem]'>
             <div className='flex flex-col items-center justify-center gap-[4.18rem] 
-            lg:flex-row xl:gap-[5.938rem]'>
+                lg:flex-row xl:gap-[5.938rem]'>
                 <img src={GoogleLogo} alt="Google Logo" />
                 <img src={IBMLogo} alt="IBM Logo" />
                 <img src={MicrosoftLogo} alt="Microsoft Logo" />
