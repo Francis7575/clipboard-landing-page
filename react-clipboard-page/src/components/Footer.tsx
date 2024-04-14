@@ -1,8 +1,24 @@
 import ClipboardLogo from '../assets/logo.svg'
+import { useState, useEffect } from 'react';
 
 const linkNames = ["FAQs", "Contact Us", "Privacy Policy", "Press Kit", "Install Guide"];
+const switchedLinkNames = ["FAQs", "Privacy Policy", "Install Guide", "Contact Us", "Press Kit"];
 
 const Footer = () => {
+    const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 1024);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsLargeScreen(window.innerWidth >= 1024);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return (
         <footer className='bg-light-grayish-blue bg-opacity-10 pt-[3.25rem] pb-[3.25rem] 
                 lg:pt-[2.43rem] lg:pb-[2.43rem] lg:flex lg:items-center lg:justify-center lg:pl-[5.313rem] 
@@ -13,7 +29,7 @@ const Footer = () => {
 
             <ul className='flex flex-col items-center gap-[1.25rem] mb-12 
                 lg:grid lg:grid-cols-3 lg:mb-0 lg:mr-[5rem] lg:gap-y-3 lg lg:gap-x-[1.875rem] xl:mr-[10.313rem]'>
-                {linkNames.map((link, index) => (
+                {(isLargeScreen ? switchedLinkNames : linkNames).map((link, index) => (
                     <li key={index}>
                         <a href="#" className='text-grayish-blue text-[1.12rem] leading-[1.87rem] tracking-[0.008em] hover:text-turquoise-color'>
                             {link}

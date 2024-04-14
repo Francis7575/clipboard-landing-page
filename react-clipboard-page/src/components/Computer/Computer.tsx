@@ -6,7 +6,7 @@ const Computer = () => {
         <section className='mt-[9.37rem] mb-[11.62rem] lg:mb-[9.37rem]'>
             <article className='flex flex-col text-center items-center gap-[1.18rem] mb-20'>
                 <h2 className='text-grayish-blue font-semibold tracking-{0.029rem] text-[1.75rem]
-                    lg;text-[2.25rem] lg:tracking-[-0.037em]'>
+                    lg:text-[2.25rem] lg:tracking-[-0.037em]'>
                     Keep track of your snippets
                 </h2>
                 <p className='text-light-grayish-blue leading-[1.62rem] tracking-[0.008rem] max-w-[19.43rem]
