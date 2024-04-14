@@ -32,7 +32,7 @@ const Computer = () => {
                                 {item.heading}
                             </h3>
                             <p className='text-light-grayish-blue leading-[1.62rem] tracking-[0.008em] max-w-[19.43rem]
-                            lg:leading-[1.87rem]'>
+                            lg:leading-[1.87rem] lg:max-w-[21.875rem]'>
                                 {item.paragraph}
                             </p>
                         </article>
