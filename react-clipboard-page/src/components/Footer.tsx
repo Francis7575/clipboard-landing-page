@@ -5,7 +5,7 @@ const linkNames = ["FAQs", "Contact Us", "Privacy Policy", "Press Kit", "Install
 const switchedLinkNames = ["FAQs", "Privacy Policy", "Install Guide", "Contact Us", "Press Kit"];
 
 const Footer = () => {
-    const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 1024);
+    const [isLargeScreen, setIsLargeScreen] = useState<boolean>(window.innerWidth >= 1024);
 
     useEffect(() => {
         const handleResize = () => {
