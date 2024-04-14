@@ -9,7 +9,7 @@ const Devices = () => {
                     Access Clipboard Anywhere
                 </h2>
                 <p className='text-light-grayish-blue leadig-[1.62rem] tracking-[0.008em] mb-16 max-w-[19.43rem]
-                lg:leading-[1.87rem] lg:max-w-[41.62rem] lg:mb-[6.938rem] lg:text-[1.12rem]'>
+                lg:leading-[1.87rem] lg:max-w-[42.62rem] lg:mb-[6.938rem] lg:text-[1.12rem]'>
                     Whether you're on the go, or at your computer, you can access
                     all your Clipboard snippets in a few simple clicks.
                 </p>
