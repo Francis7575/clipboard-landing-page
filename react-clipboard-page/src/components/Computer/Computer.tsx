@@ -10,7 +10,7 @@ const Computer = () => {
                     Keep track of your snippets
                 </h2>
                 <p className='text-light-grayish-blue leading-[1.62rem] tracking-[0.008rem] max-w-[19.43rem]
-                lg:max-w-[40rem]'>
+                    lg:max-w-[40rem]'>
                     Clipboard instantly stores any item you copy in the cloud, meaning
                     you can access your snippets immediately on all your devices.
                     Our Mac and iOS apps will help you organize everything.
@@ -27,12 +27,12 @@ const Computer = () => {
                 <section className='lg:flex lg:flex-col'>
                     {ComputerInfo.map((item, index) => (
                         <article key={index} className='flex flex-col items-center text-center mb-12 gap-[0.62rem] 
-                        lg:text-left lg:items-start lg:gap-[0.5rem]'>
+                                lg:text-left lg:items-start lg:gap-[0.5rem]'>
                             <h3 className='text-grayish-blue text-[1.5rem] font-semibold tracking-[-0.024em]'>
                                 {item.heading}
                             </h3>
                             <p className='text-light-grayish-blue leading-[1.62rem] tracking-[0.008em] max-w-[19.43rem]
-                            lg:leading-[1.87rem] lg:max-w-[21.875rem]'>
+                                lg:leading-[1.87rem] lg:max-w-[21.875rem]'>
                                 {item.paragraph}
                             </p>
                         </article>
